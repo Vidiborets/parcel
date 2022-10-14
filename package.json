@@ -1,0 +1,32 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /restart_practic/",
+    "deploy": "gh-pages -d dist",
+    "predoploy": "npm run deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vidiborets/restart_practic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vidiborets/restart_practic/issues"
+  },
+  "homepage": "https://github.com/Vidiborets/restart_practic",
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "html-includes": "^4.4.1",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml": "^0.16.6",
+    "posthtml-include": "^1.7.4",
+    "saas": "^1.0.0",
+    "sass": "^1.55.0"
+  }
+}
