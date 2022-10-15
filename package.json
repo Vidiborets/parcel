@@ -7,7 +7,7 @@
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /restart_practic/",
     "deploy": "gh-pages -d dist",
-    "predoploy": "npm run deploy"
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/Vidiborets/restart_practic/issues"
   },
-  "homepage": "https://github.com/Vidiborets/restart_practic",
+  "homepage": "https://Vidiborets.github.io/restart_practic",
   "devDependencies": {
     "gh-pages": "^4.0.0",
     "html-includes": "^4.4.1",
