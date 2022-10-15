@@ -5,20 +5,20 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /restart_practic/",
+    "build": "parcel build src/*.html --public-url /parcel/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vidiborets/restart_practic.git"
+    "url": "git+https://github.com/Vidiborets/parcel.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Vidiborets/restart_practic/issues"
+    "url": "https://github.com/Vidiborets/parcel/issues"
   },
-  "homepage": "https://Vidiborets.github.io/restart_practic",
+  "homepage": "https://Vidiborets.github.io/parcel",
   "devDependencies": {
     "gh-pages": "^4.0.0",
     "html-includes": "^4.4.1",
